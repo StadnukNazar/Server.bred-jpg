@@ -12,7 +12,7 @@ const app = express()
 const port = process.argv[2] ? parseInt(process.argv[2], 10) : 3000;
 if (isNaN(port) || port <= 0) {
   console.log(process.argv[2])
-  console.error('dlaczego nie jest niebieski?');
+  console.error('ERROR ');
   process.exit(1);
 }
 
